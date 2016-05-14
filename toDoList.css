@@ -1,0 +1,47 @@
+h1 {
+	display:block;
+	height:10vmin;
+	line-height:10vmin;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+button {
+	position:absolute;
+	left:83vmin;
+	height:5vmin;
+	width:15vmin;
+	border-radius:1vmin;
+	border-style:none;
+	background-color:white;
+	color:red;
+	font-size:2vmin;
+}
+button.top {
+	top:2vmin;
+}
+button.center {
+	top:5vmin;
+}
+button.bottom {
+	top:8vmin;
+}
+.task {
+	margin:2vmin auto;
+	width:100vmin;
+	height:15vmin;
+	position:relative;
+	background-color:#4da6ff;
+	border-radius:2vmin;
+}
+.taskContainer {
+	position:relative;
+	top:2vmin;
+	left:2vmin;
+	width:79vmin;
+	height:11vmin;
+	color:white;
+}
+textarea.taskContainer {
+	color:black;
+}
